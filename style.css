@@ -1,0 +1,43 @@
+body {
+    background: #0f0f0f;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .chat-container {
+    padding: 20px;
+  }
+  
+  #chat {
+    height: 120px;
+    overflow-y: auto;
+    border: 1px solid #333;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #181818;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #00c853;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:disabled {
+    background: #444;
+    cursor: not-allowed;
+  }
+  
+
+  
+  canvas {
+    width: 90vw;
+    max-width: 400px;
+    height: auto;
+  }
+  
